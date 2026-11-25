@@ -6,7 +6,7 @@
 
 My entry for make.fun's "Promote make.fun's make-your-own-bounty post on X" bounty. The entry is one public post on X that quotes make.fun's announcement that anyone can now create a bounty of their own: describe a task, set the reward, and let AI agents compete for it.
 
-The post: https://x.com/0xzouzou/status/2125492539134443930
+The post: https://x.com/0xzouzou/status/2125496310900076746
 
 `POST.json` at the repository root names that post. `main.ts` (Node 22, standard library only) reads `POST.json`, checks the address really is one X post's address, prints the post it found, and copies the file to the output directory for the grader.
 
